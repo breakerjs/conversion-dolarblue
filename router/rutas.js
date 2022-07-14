@@ -6,6 +6,12 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.render('index')
 });
+router.get('/euro', (req, res) => {
+    res.render('eurobl')
+});
+router.get('/crypto', (req, res) => {
+    res.render('crypto')
+});
 
 // Exportar el modulo: router
 module.exports = router;

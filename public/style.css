@@ -1,0 +1,38 @@
+body {
+    text-align: center !important;
+    margin: auto !important;
+}
+
+#navbarNav{
+    justify-content: center;
+}
+
+.mainCalculadora {
+    margin-top: 3% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media(max-width: 400px) {
+    .mainCalculadora {
+        margin-top: 15% !important;
+    }
+}
+
+canvas{
+    margin: 0 auto;
+    display:inline-flex;
+}
+
+#conversion {
+    width: 300px;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
